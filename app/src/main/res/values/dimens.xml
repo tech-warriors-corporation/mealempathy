@@ -1,3 +1,10 @@
 <resources>
     <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="one">4dp</dimen>
+    <dimen name="two">8dp</dimen>
+    <dimen name="four">16dp</dimen>
+    <dimen name="logo">172dp</dimen>
+    <dimen name="title">32sp</dimen>
+    <dimen name="title_small">24sp</dimen>
+    <dimen name="text_small">12sp</dimen>
 </resources>

@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">MealEmpathy</string>
+    <string name="description">Seja bem-vindo a nossa conexão com ações solidárias.</string>
+    <string name="copyright">Desenvolvido por Tech Warriors</string>
+    <string name="logo">Logo do MealEmpathy</string>
     <string name="title_home">Home</string>
 </resources>
