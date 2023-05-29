@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ui.about.AboutFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/four">
+        <TextView app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:text="@string/how_to_works_title"
+            android:textSize="@dimen/title_small"
+            android:id="@+id/how_to_works_title"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/how_to_works_title"
+            android:text="@string/how_to_works_text"
+            android:textSize="@dimen/text"
+            android:id="@+id/how_to_works_text"
+            android:textColor="@color/dark_gray"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/how_to_works_text"
+            android:text="@string/mission_title"
+            android:textSize="@dimen/title_small"
+            android:id="@+id/mission_title"
+            android:textColor="@color/black"
+            android:layout_marginTop="@dimen/four"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/mission_title"
+            android:text="@string/mission_text"
+            android:textSize="@dimen/text"
+            android:id="@+id/mission_text"
+            android:textColor="@color/dark_gray"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/mission_text"
+            android:text="@string/vision_title"
+            android:textSize="@dimen/title_small"
+            android:id="@+id/vision_title"
+            android:textColor="@color/black"
+            android:layout_marginTop="@dimen/four"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/vision_title"
+            android:text="@string/vision_text"
+            android:textSize="@dimen/text"
+            android:id="@+id/vision_text"
+            android:textColor="@color/dark_gray"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/vision_text"
+            android:text="@string/values_title"
+            android:textSize="@dimen/title_small"
+            android:id="@+id/values_title"
+            android:textColor="@color/black"
+            android:layout_marginTop="@dimen/four"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/values_title"
+            android:text="@string/values_text"
+            android:textSize="@dimen/text"
+            android:id="@+id/values_text"
+            android:textColor="@color/dark_gray"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>
