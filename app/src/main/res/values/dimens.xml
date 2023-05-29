@@ -1,5 +1,6 @@
 <resources>
     <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="border">2dp</dimen>
     <dimen name="one">4dp</dimen>
     <dimen name="two">8dp</dimen>
     <dimen name="four">16dp</dimen>

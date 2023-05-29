@@ -14,7 +14,7 @@
             android:text="@string/how_to_works_title"
             android:textSize="@dimen/title_small"
             android:id="@+id/how_to_works_title"
-            android:textColor="@color/black"
+            android:textColor="@color/purple"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
 
@@ -34,7 +34,7 @@
             android:text="@string/mission_title"
             android:textSize="@dimen/title_small"
             android:id="@+id/mission_title"
-            android:textColor="@color/black"
+            android:textColor="@color/purple"
             android:layout_marginTop="@dimen/four"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
@@ -55,7 +55,7 @@
             android:text="@string/vision_title"
             android:textSize="@dimen/title_small"
             android:id="@+id/vision_title"
-            android:textColor="@color/black"
+            android:textColor="@color/purple"
             android:layout_marginTop="@dimen/four"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
@@ -76,7 +76,7 @@
             android:text="@string/values_title"
             android:textSize="@dimen/title_small"
             android:id="@+id/values_title"
-            android:textColor="@color/black"
+            android:textColor="@color/purple"
             android:layout_marginTop="@dimen/four"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
@@ -88,6 +88,77 @@
             android:textSize="@dimen/text"
             android:id="@+id/values_text"
             android:textColor="@color/dark_gray"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/values_text"
+            android:text="@string/objectives_title"
+            android:textSize="@dimen/title_small"
+            android:id="@+id/objectives_title"
+            android:textColor="@color/purple"
+            android:layout_marginTop="@dimen/four"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/objectives_title"
+            android:background="@drawable/rounded_green_card"
+            android:text="@string/objectives_reduce_waste"
+            android:id="@+id/objectives_reduce_waste"
+            android:layout_marginTop="@dimen/one"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/objectives_reduce_waste"
+            android:background="@drawable/rounded_orange_card"
+            android:text="@string/objectives_decision_of_stock"
+            android:id="@+id/objectives_decision_of_stock"
+            android:layout_marginTop="@dimen/two"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/objectives_decision_of_stock"
+            android:background="@drawable/rounded_green_card"
+            android:text="@string/objectives_connect_to_sdg_2"
+            android:id="@+id/objectives_connect_to_sdg_2"
+            android:layout_marginTop="@dimen/two"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/objectives_connect_to_sdg_2"
+            android:background="@drawable/rounded_orange_card"
+            android:text="@string/objectives_optimize_resources"
+            android:id="@+id/objectives_optimize_resources"
+            android:layout_marginTop="@dimen/two"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/objectives_optimize_resources"
+            android:background="@drawable/rounded_green_card"
+            android:text="@string/objectives_food_insecurity"
+            android:id="@+id/objectives_food_insecurity"
+            android:layout_marginTop="@dimen/two"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
     </androidx.constraintlayout.widget.ConstraintLayout>
