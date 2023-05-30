@@ -36,6 +36,14 @@ class SolidarityActionsFragment : Fragment() {
             startActivity(intent)
         }
 
+        binding.wunderwaldButtonMaps.setOnClickListener{
+            val intent = Intent(Intent.ACTION_VIEW)
+
+            intent.setData(Uri.parse("https://www.google.com/maps/place/Restaurante+T%C3%ADpico+Colonial+Wunderwald/@-26.8052339,-49.2454787,12z/data=!4m13!1m2!2m1!1swunderwald!3m9!1s0x94dee57a102eea6d:0x6bddb13acca040d4!5m2!4m1!1i2!8m2!3d-26.8052578!4d-49.1656532!15sCgp3dW5kZXJ3YWxkWgwiCnd1bmRlcndhbGSSARFnZXJtYW5fcmVzdGF1cmFudOABAA!16s%2Fg%2F1tt1jcdj?entry=ttu"))
+
+            startActivity(intent)
+        }
+
         return binding.root
     }
 
