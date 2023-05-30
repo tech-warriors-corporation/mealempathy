@@ -6,8 +6,11 @@
     <dimen name="four">16dp</dimen>
     <dimen name="eight">32dp</dimen>
     <dimen name="logo">172dp</dimen>
+    <dimen name="solidarity_action_logo">60dp</dimen>
+    <dimen name="button_maps">36dp</dimen>
     <dimen name="title">32sp</dimen>
     <dimen name="title_small">24sp</dimen>
+    <dimen name="large_text">20sp</dimen>
     <dimen name="text">16sp</dimen>
     <dimen name="text_small">12sp</dimen>
 </resources>

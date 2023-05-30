@@ -6,6 +6,11 @@
         android:title="@string/title_home" />
 
     <item
+        android:id="@+id/navigation_solidarity_actions"
+        android:icon="@drawable/outline_restaurant_24"
+        android:title="@string/title_actions" />
+
+    <item
         android:id="@+id/navigation_about"
         android:icon="@drawable/outline_info_24"
         android:title="@string/title_about" />

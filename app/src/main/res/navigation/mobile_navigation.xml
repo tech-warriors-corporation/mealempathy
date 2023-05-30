@@ -11,6 +11,12 @@
         tools:layout="@layout/fragment_home" />
 
     <fragment
+        android:id="@+id/navigation_solidarity_actions"
+        android:name="com.mealempathy.ui.solidarity_actions.SolidarityActionsFragment"
+        android:label="@string/title_solidarity_actions"
+        tools:layout="@layout/fragment_solidarity_actions" />
+
+    <fragment
         android:id="@+id/navigation_about"
         android:name="com.mealempathy.ui.about.AboutFragment"
         android:label="@string/title_about"

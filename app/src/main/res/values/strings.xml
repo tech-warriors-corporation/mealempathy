@@ -5,6 +5,8 @@
     <string name="logo">Logo do MealEmpathy</string>
     <string name="title_home">Home</string>
     <string name="title_about">Sobre</string>
+    <string name="title_actions">Ações</string>
+    <string name="title_solidarity_actions">Ações solidárias</string>
     <string name="how_to_works_title">Como funciona</string>
     <string name="how_to_works_text">O MealEmpathy é uma plataforma completa que ajuda seus parceiros, como restaurantes, mercados e fazendas, a evitarem o desperdício. No entanto, sabemos que às vezes os alimentos que sobram acabam indo para o lixo. Com isso, conectamos nossos parceiros a ONGs, igrejas e outras entidades beneficentes que entregam refeições feitas a partir de alimentos selecionados pela nossa IA generativa. Essa IA visa um bom valor nutricional e calórico, trazendo variedade e sabor para pessoas necessitadas.</string>
     <string name="mission_title">Missão</string>
@@ -19,4 +21,13 @@
     <string name="objectives_connect_to_sdg_2">Conectar entidades beneficientes e parceiros a pessoas famintas, cumprindo o ODS 2</string>
     <string name="objectives_optimize_resources">Otimizar alocação de recursos alimentícios e logísticos dos parceiros através de IA</string>
     <string name="objectives_food_insecurity">Diminuição da insegurança alimentar</string>
+    <string name="solidarity_actions_list">Solidários</string>
+    <string name="button_maps">Google Maps</string>
+    <string name="free">Gratuito</string>
+    <string name="apae_title">APAE</string>
+    <string name="apae_logo">Logo da APAE</string>
+    <string name="apae_info">157 pratos às quartas-feiras:</string>
+    <string name="apae_first_meal">• Macarrão, frango e alface</string>
+    <string name="apae_second_meal">• Arroz, porco e tomate</string>
+    <string name="apae_time">14:00</string>
 </resources>
