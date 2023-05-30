@@ -44,6 +44,14 @@ class SolidarityActionsFragment : Fragment() {
             startActivity(intent)
         }
 
+        binding.lutheranChurchButtonMaps.setOnClickListener{
+            val intent = Intent(Intent.ACTION_VIEW)
+
+            intent.setData(Uri.parse("https://www.google.com/maps/place/Igreja+Luterana+do+Ap%C3%B3stolo+Jo%C3%A3o/@-26.7379687,-49.176111,15z/data=!4m6!3m5!1s0x94dee51a49d79bad:0xf7358441b25097df!8m2!3d-26.7379687!4d-49.176111!16s%2Fg%2F1vd771ql?entry=ttu"))
+
+            startActivity(intent)
+        }
+
         return binding.root
     }
 

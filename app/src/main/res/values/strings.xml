@@ -31,17 +31,22 @@
     <string name="apae_second_meal">• Arroz, porco e tomate</string>
     <string name="apae_time">14:00</string>
     <string name="funiculi_funicula_title">Funiculì Funiculà</string>
-    <string name="funiculi_funicula_logo">Logo do Funiculì Funiculà</string>
+    <string name="funiculi_funicula_logo">Imagem do Funiculì Funiculà</string>
     <string name="funiculi_funicula_info">82 pratos todos os dias:</string>
     <string name="funiculi_funicula_first_meal">• Feijão, linguiça e brócolis</string>
     <string name="funiculi_funicula_price">R$ 4,00</string>
     <string name="funiculi_funicula_time">18:30</string>
     <string name="wunderwald_title">Wunderwald</string>
-    <string name="wunderwald_logo">Logo do Wunderwald</string>
+    <string name="wunderwald_logo">Imagem do Wunderwald</string>
     <string name="wunderwald_info">220 pratos todo final de semana:</string>
     <string name="wunderwald_first_meal">• Aipim, marreco e chucrute</string>
     <string name="wunderwald_second_meal">• Aipim, salchicha e ervilha</string>
     <string name="wunderwald_third_meal">• Aipim, porco e beterraba</string>
     <string name="wunderwald_price">R$ 2,50</string>
     <string name="wunderwald_time">12:00</string>
+    <string name="lutheran_church_title">Igreja Luterana (centro)</string>
+    <string name="lutheran_church_logo">Imagem da Igreja Luterana (centro)</string>
+    <string name="lutheran_church_info">135 pratos às terças-feiras:</string>
+    <string name="lutheran_church_first_meal">• Arroz, carne e alface</string>
+    <string name="lutheran_church_time">11:00</string>
 </resources>

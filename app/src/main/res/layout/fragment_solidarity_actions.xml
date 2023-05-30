@@ -323,5 +323,96 @@
                 </TableRow>
             </TableLayout>
         </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_marginTop="@dimen/two"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_solidarity_action_card"
+            app:layout_constraintTop_toBottomOf="@id/wunderwald_card"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+            <TableLayout android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                android:stretchColumns="1">
+                <TableRow tools:ignore="UselessParent">
+                    <ImageView
+                        android:layout_width="@dimen/solidarity_action_logo"
+                        android:layout_height="@dimen/solidarity_action_logo"
+                        android:contentDescription="@string/lutheran_church_logo"
+                        android:src="@drawable/lutheran_church_logo"
+                        android:layout_marginEnd="@dimen/two" />
+
+                    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            android:text="@string/lutheran_church_title"
+                            android:textSize="@dimen/large_text"
+                            android:id="@+id/lutheran_church_title"
+                            android:textColor="@color/purple"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+
+                        <TextView app:layout_constraintTop_toBottomOf="@id/lutheran_church_title"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            android:text="@string/lutheran_church_info"
+                            android:textSize="@dimen/text"
+                            android:id="@+id/lutheran_church_info"
+                            android:textColor="@color/black"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+
+                        <TextView app:layout_constraintTop_toBottomOf="@id/lutheran_church_info"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            android:text="@string/lutheran_church_first_meal"
+                            android:textSize="@dimen/text"
+                            android:id="@+id/lutheran_church_first_meal"
+                            android:textColor="@color/dark_gray"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+
+                        <TableLayout android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            app:layout_constraintTop_toBottomOf="@id/lutheran_church_first_meal"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            android:layout_marginTop="@dimen/two"
+                            android:stretchColumns="2">
+                            <TableRow tools:ignore="UselessParent">
+                                <TextView android:background="@drawable/tag_green"
+                                    android:text="@string/free"
+                                    android:textColor="@color/white"
+                                    android:textSize="@dimen/text"
+                                    android:layout_marginEnd="@dimen/two"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"/>
+
+                                <TextView android:background="@drawable/tag_orange"
+                                    android:text="@string/lutheran_church_time"
+                                    android:textColor="@color/white"
+                                    android:textSize="@dimen/text"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"/>
+
+                                <ImageView
+                                    android:id="@+id/lutheran_church_button_maps"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="@dimen/button_maps"
+                                    android:layout_gravity="end"
+                                    android:contentDescription="@string/button_maps"
+                                    android:src="@drawable/google_maps" />
+                            </TableRow>
+                        </TableLayout>
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                </TableRow>
+            </TableLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.core.widget.NestedScrollView>
