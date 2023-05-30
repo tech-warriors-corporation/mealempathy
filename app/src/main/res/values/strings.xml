@@ -30,4 +30,10 @@
     <string name="apae_first_meal">• Macarrão, frango e alface</string>
     <string name="apae_second_meal">• Arroz, porco e tomate</string>
     <string name="apae_time">14:00</string>
+    <string name="funiculi_funicula_title">Funiculì Funiculà</string>
+    <string name="funiculi_funicula_logo">Logo do Funiculì Funiculà</string>
+    <string name="funiculi_funicula_info">82 pratos todos os dias:</string>
+    <string name="funiculi_funicula_first_meal">• Feijão, linguiça e brócolis</string>
+    <string name="funiculi_funicula_price">R$ 4,00</string>
+    <string name="funiculi_funicula_time">18:30</string>
 </resources>

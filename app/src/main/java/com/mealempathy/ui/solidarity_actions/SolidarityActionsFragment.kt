@@ -28,6 +28,14 @@ class SolidarityActionsFragment : Fragment() {
             startActivity(intent)
         }
 
+        binding.funiculiFuniculaButtonMaps.setOnClickListener{
+            val intent = Intent(Intent.ACTION_VIEW)
+
+            intent.setData(Uri.parse("https://www.google.com.br/maps/place/Ristorante+Funicul%C3%AC+Funicul%C3%A0+Blumenau/@-26.9373848,-49.0923849,11z/data=!4m10!1m2!2m1!1sfuniculi+funicula!3m6!1s0x94df18e85c3179cd:0x775df948e74c8911!8m2!3d-26.9252862!4d-49.0707316!15sChFmdW5pY3VsaSBmdW5pY3VsYVoTIhFmdW5pY3VsaSBmdW5pY3VsYZIBEml0YWxpYW5fcmVzdGF1cmFudOABAA!16s%2Fg%2F11g_2ptfd?entry=ttu"))
+
+            startActivity(intent)
+        }
+
         return binding.root
     }
 
