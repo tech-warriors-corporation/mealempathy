@@ -3,6 +3,9 @@
     <string name="description">Seja bem-vindo a nossa conexão com ações solidárias.</string>
     <string name="copyright">Desenvolvido por Tech Warriors</string>
     <string name="logo">Logo do MealEmpathy</string>
+    <string name="search">Buscar</string>
+    <string name="search_label">Buscar ação solidária</string>
+    <string name="search_placeholder">Coloque o nome da ação solidária</string>
     <string name="title_home">Home</string>
     <string name="title_about">Sobre</string>
     <string name="title_actions">Ações</string>

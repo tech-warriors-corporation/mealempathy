@@ -20,6 +20,10 @@ class SolidarityActionsFragment : Fragment() {
     ): View {
         _binding = FragmentSolidarityActionsBinding.inflate(inflater, container, false)
 
+        binding.searchButton.setOnClickListener{
+            search()
+        }
+
         binding.apaeButtonMaps.setOnClickListener{
             val intent = Intent(Intent.ACTION_VIEW)
 
@@ -59,5 +63,30 @@ class SolidarityActionsFragment : Fragment() {
         super.onDestroyView()
 
         _binding = null
+    }
+
+    private fun search(){
+        val search = binding.searchField.editText?.text.toString().trim()
+
+        if(search == ""){
+            binding.apaeCard.alpha = 1F
+            binding.funiculiFuniculaCard.alpha = 1F
+            binding.wunderwaldCard.alpha = 1F
+            binding.lutheranChurchCard.alpha = 1F
+
+            return
+        }
+
+        if(binding.apaeTitle.text.contains(search, ignoreCase = true)) binding.apaeCard.alpha = 1F
+        else binding.apaeCard.alpha = .2F
+
+        if(binding.funiculiFuniculaTitle.text.contains(search, ignoreCase = true)) binding.funiculiFuniculaCard.alpha = 1F
+        else binding.funiculiFuniculaCard.alpha = .2F
+
+        if(binding.wunderwaldTitle.text.contains(search, ignoreCase = true)) binding.wunderwaldCard.alpha = 1F
+        else binding.wunderwaldCard.alpha = .2F
+
+        if(binding.lutheranChurchTitle.text.contains(search, ignoreCase = true)) binding.lutheranChurchCard.alpha = 1F
+        else binding.lutheranChurchCard.alpha = .2F
     }
 }

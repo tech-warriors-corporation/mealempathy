@@ -18,13 +18,56 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
 
-        <androidx.constraintlayout.widget.ConstraintLayout
+        <TableLayout android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/title"
             android:layout_marginTop="@dimen/two"
+            android:id="@+id/filter"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:stretchColumns="0">
+            <TableRow tools:ignore="UselessParent">
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/search_field"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/search_label"
+                    app:placeholderText="@string/search_placeholder"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:inputType="text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.button.MaterialButton
+                    android:layout_width="@dimen/eight"
+                    android:layout_height="@dimen/eight"
+                    android:layout_marginStart="@dimen/two"
+                    android:insetLeft="0dp"
+                    android:insetTop="0dp"
+                    android:insetRight="0dp"
+                    android:insetBottom="0dp"
+                    app:rippleColor="@android:color/transparent"
+                    android:background="@android:color/transparent"
+                    android:id="@+id/search_button"
+                    app:iconTint="@color/purple"
+                    android:contentDescription="@string/search"
+                    app:icon="@drawable/baseline_search_24"
+                    app:iconSize="@dimen/eight"
+                    app:iconGravity="textStart"
+                    app:iconPadding="0dp" />
+            </TableRow>
+        </TableLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:alpha="1"
+            android:layout_marginTop="@dimen/four"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/apae_card"
             android:background="@drawable/rounded_solidarity_action_card"
-            app:layout_constraintTop_toBottomOf="@id/title"
+            app:layout_constraintTop_toBottomOf="@id/filter"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent">
             <TableLayout android:layout_width="match_parent"
@@ -121,6 +164,7 @@
         </androidx.constraintlayout.widget.ConstraintLayout>
 
         <androidx.constraintlayout.widget.ConstraintLayout
+            android:alpha="1"
             android:layout_marginTop="@dimen/two"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -213,6 +257,7 @@
         </androidx.constraintlayout.widget.ConstraintLayout>
 
         <androidx.constraintlayout.widget.ConstraintLayout
+            android:alpha="1"
             android:layout_marginTop="@dimen/two"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -325,9 +370,11 @@
         </androidx.constraintlayout.widget.ConstraintLayout>
 
         <androidx.constraintlayout.widget.ConstraintLayout
+            android:alpha="1"
             android:layout_marginTop="@dimen/two"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:id="@+id/lutheran_church_card"
             android:background="@drawable/rounded_solidarity_action_card"
             app:layout_constraintTop_toBottomOf="@id/wunderwald_card"
             app:layout_constraintEnd_toEndOf="parent"
